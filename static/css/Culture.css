@@ -1,0 +1,82 @@
+*
+{
+    margin: 0px;
+}
+body
+{
+
+    color: white;
+    
+}
+
+header
+{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: crimson;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header>h1
+{
+    box-shadow: 0px 0px 10px yellow;
+    text-shadow: 0px 0px 10px red;
+    margin-left: 20px;
+}
+header>.nav-links>button
+{
+    color: black; 
+    text-decoration: none;
+    padding: 6px 20px; 
+    background-color: orange;
+    border: none;
+    margin: 20px;
+    border-radius: 10px;
+}
+header>.nav-links>button:hover
+{
+    box-shadow: 0 0 10px white;
+}
+header>.nav-links>button>a
+{
+    text-decoration: none;
+    color: white;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.First
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2
+{
+    background-color: blue;
+    width: 280px;
+    height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px deeppink;
+}
+h2:hover
+{
+    box-shadow: 0px 0px 20px greenyellow;
+}
+.Two
+{
+    border: none;
+    background-color: orange;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 0px 10px red;
+}
+h3
+{
+    color: rgb(84, 19, 236);
+}

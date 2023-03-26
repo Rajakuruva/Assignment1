@@ -1,0 +1,131 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/Festival_files.css' %}">
+</head>
+<body>
+    <header>
+        <h1>ANDHRA PRADESH FESTIVALS</h1>
+        <div class="nav-links">
+            <button>
+                <a href="{% url 'Andhra:States' %}">Home</a>
+            </button>
+            <button>
+                <a href="{% url 'Andhra:History' %}">
+                    History
+                </a>
+            </button>
+            <button>
+                <a href="{% url 'States:Disticts' %}">Disticts
+                </a>
+            </button>
+            <button>
+                <a href="{% url 'Andhra:Culture' %}">
+                    Culture
+                </a>
+            </button>
+        </div>
+    </header>
+    <div id="Landing-page">
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th>Festival Name</th>
+                    <th>Date - Hindu lunar calendar</th>
+                    <th>Date - Gregorian calendar</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ugadi</td>
+                    <td>1st day of Chaitra</td>
+                    <td>March–April</td>
+                    <td>It is referred as the "Telugu New Year". Ugadi in Telugu means New Year</td>
+                </tr>
+                <tr>
+                    <td>Sri-rama navami </td>
+                    <td>9th day of Chaitra</td>
+                    <td>March–April</td>
+                    <td>Sri Rama Navami is the celebration of the birth of Rama. It is the day on which Lord Rama, the seventh incarnation of Lord Vishnu, incarnated in human form in Ayodhya. He is the ardha ansh of Vishnu or has half the divinitive qualities of Lord Vishnu.</td>
+                </tr>
+                <tr>
+                    <td>Vinnayaka-Chavithi</td>
+                    <td>4th day of Bhaadrapadam</td>
+                    <td>August–September</td>
+                    <td>It is celebrated as the arrival of Vinayaka on the earth.</td>
+                </tr>
+                <tr>
+                    <td>Navaratri</td>
+                    <td>Chaitra and Ashvini</td>
+                    <td>September–October</td>
+                    <td>The nine-day festival of Durga culminates in Vijayadashami (Dasara). This is one of the three auspicious days of the year.</td>
+                </tr>
+                <tr>
+                    <td>Vijayadashimi</td>
+                    <td>Tenth day of waxing moon of Ashvini</td>
+                    <td>September–October</td>
+                    <td>It is the Hindu celebration of good over evil.</td>
+                </tr>
+                <tr>
+                    <td>Moharam</td>
+                    <td></td>
+                    <td>September–October</td>
+                    <td>Observed by Muslims. It is a celebrated by across the Sufi shrines called as Ashurkhana.</td>
+                </tr>
+                <tr>
+                    <td>Deepavali</td>
+                    <td>Ashvini-Kartika</td>
+                    <td>October–November</td>
+                    <td>Deepavali which means "row of lights/lamps" in Telugu. "Deepam" means lamp.
+                        The festival is celebrated on the occasion of Lord Krishna and his wife Satyabhama killing a demon Narakasura. 
+                        Another story says the festival is celebrated for the return of Rama and Sita to the kingdom Ayodhya after fourteen years of exile.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sankranthi</td>
+                    <td>Magam</td>
+                    <td>January</td>
+                    <td>On Bhogi, the first day of Sankranthi festive season, people discard old and derelict things and concentrate on new things causing 
+                        change or transformation. At dawn, people light a bonfire with logs of wood, other solid-fuels and wooden furniture at home that are 
+                        no longer useful.[1] The disposal of derelict things is where all old habits, vices, attachment to relations and material things are 
+                        sacrificed in the sacrificial fire of the knowledge of Rudra, known as the "Rudra Gita Jnana Yajna". It represents realization, 
+                        transformation and purification of the soul by imbibing and inculcating various divine virtues.
+                        Sankranthi marks the transition of the Sun into Makara rasi. It is an important harvest festival in India.
+                        Third day of the four-day Sankranthi festive season.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Maha Shivaratri</td>
+                    <td>Thirteenth night of the waning moon of Maagam</td>
+                    <td>February–March</td>
+                    <td>Maha Sivaratri is the great night of Shiva, during which followers of Shiva observe religious fasting and the offering of Bael (Bilva) leaves to Shiva</td>
+                </tr>
+                <tr>
+                    <td>Ramjan</td>
+                    <td></td>
+                    <td>March-April</td>
+                    <td> Before sighting the moon of 'Ramzan', the Muslims observe fasts for a full month. The festival of Eid is celebrated the next of sighting of the moon.</td>
+                </tr>
+                <tr>
+                    <td>Eid-al-fitar</td>
+                    <td></td>
+                    <td>MArch-April</td>
+                    <td>The festival celebrates the eternal and divine love of Radha and Krishna. It also signifies the triumph of good over evil, as it celebrates the victory of 
+                        Lord Vishnu as Narasimha Narayana over Hiranyakashipu.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Christamas</td>
+                    <td></td>
+                    <td>Dec25</td>
+                    <td>Birthday of Lord Krishna on Shravan Vadya ashtami is observed with a fast.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

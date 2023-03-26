@@ -1,0 +1,73 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>States</title>
+    <link rel="stylesheet" href="{% static 'css/States_File.css' %}">
+    <style>
+        #Landing-page
+        {
+            background: yellow url('{% static "images/AP4.jpg" %}') no-repeat 0px 0px scroll;
+            background-size: cover;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ANDHRA PRADESH CULTURE AND TRADITIONS</h1>
+        <div class="nav-links">
+            <button>
+                <a href="{% url 'Andhra:States' %}">Home</a>
+            </button>
+            <button>
+                <a href="{% url 'States:Disticts' %}">Disticts
+                </a>
+            </button>
+            <button>
+                <a href="{% url 'Andhra:History' %}">
+                    History
+                </a>
+            </button>
+            <button>
+                <a href="{% url 'Andhra:Culture' %}">
+                    Culture
+                </a>
+            </button>
+            <button>
+                <a href="{% url 'Andhra:Festivals' %}">Festivals</a>
+            </button>
+        </div>
+    </header>
+    <div id="Landing-page">
+        <div class="wrapper">
+            <center>
+                <h1>Welcome to <span style="color: deepskyblue;">Andhra Pradesh</span><span> Culture and History</span></h1>
+            </center>
+            <p>The recorded history of Andhra Pradesh, one of the 28 states of 21st-century India, begins in the Vedic period. It is mentioned in Sanskrit epics such as the Aitareya Brahmana (800 BCE).Its sixth-century BCE incarnation Assaka lay between the Godavari and Krishna Rivers,one of sixteen mahajanapadas (700–300 BCE). The Satavahanas succeeded them (230 BCE–220 CE), built Amaravati, and reached a zenith under Gautamiputra Satakarni.
+
+                After the Satavahanas, the region fragmented into fiefdoms. By the late second century CE, Andhra Ikshvakus ruled along the Krishna River. In the fourth, the Pallava dynasty spread from southern Andhra Pradesh to Tamilakam, and had a capital at Kanchipuram. Their power increased in the reigns of Mahendravarman I (571–630) and Narasimhavarman I (630–668), and dominated northern Tamilakam and the southern Telugu-speaking region until the end of the ninth century.[clarification needed]
+                
+                From 1163 to 1323 the Kakatiya dynasty unified the land and in that golden age Tikkana’s translation of the Mahabharata founded Telugu literature. In 1323 Ghiyath al-Din Tughluq, sultan of Delhi, sent a large army under Ulugh Khan to lay siege to Warangal. After the Kakatiya dynasty fell, the Delhi Sultanate, the Chalukya Chola dynasty (1070–1279) in the south, and the Persio-Tajik sultanate of central India competed for the region. In the end the Musunuri Nayaks won over Delhi.
+                
+                Under Krishnadevaraya of the Vijayanagara Empire (1336–1646) the Telugus became independent, then the Qutb Shahi dynasty ruled the Bahmani Sultanate there from the early 16th to the end of the 17th centuries, and was tolerant of Telugu culture.
+                
+                The French, under the Marquis de Bussy-Castelnau, and the English, under Robert Clive, altered the regional polity. In 1765, Clive and the chief and council at Visakhapatnam obtained the Northern Circars from Mughal emperor Shah Alam. The British later defeated Maharaja Vijaya Rama Gajapati Raju of Vizianagaram, in 1792.
+                Vizianagaram, in 1792.
+
+                Andhra State was created in the year 1953. Potti Sriramulu had campaigned for a state independent of the Madras Presidency, and Tanguturi Prakasam Pantulu social-reform movements led to the founding of Andhra State, with a capital at Kurnool and freedom-fighter Pantulu as its first chief minister. A democracy with two stable political parties and a modern economy emerged under the N. T. Rama Rao.
+
+                India became independent in 1947. The Nizam of Hyderabad, Mir Osman Ali Khanto, wanted to remain independent, but in 1948 the Indian Army annexed Hyderabad to the Dominion of India, where it became Hyderabad State. Andhra Pradesh, the first Indian state formed primarily on the basis of language post independence, split off from the Madras Presidency in 1953. Andhra State merged with the Telugu-speaking portion of Hyderabad State in 1956 to create the state of Andhra Pradesh.
+
+                The Lok Sabha formed Telangana from ten districts of Andhra Pradesh on 18 February 2014.
+
+                Pre-Satavahana period
+                Chalcolithic age
+                The Chalcolithic period is dated using pottery and is believed to be around 1750 BC or earlier. The pottery used for dating the time period was discovered from sites near the Krishna and Tungabhadra rivers such as Patapadu. A painted spouted vessel found there resembles chalcolithic-age vessels from Navdatoli and as far as Bronze Age Crete.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

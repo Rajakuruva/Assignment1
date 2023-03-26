@@ -1,0 +1,65 @@
+*
+{
+    margin: 0px;
+}
+body
+{
+
+    color: white;
+}
+header
+{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header>.nav-links>button
+{
+    color: black; 
+    text-decoration: none;
+    padding: 6px 10px; 
+    background-color: orange;
+    margin: 20px;
+    border-radius: 10px;
+}
+header>.nav-links>button:hover
+{
+    box-shadow: 0 0 10px white;
+}
+header>.nav-links>button>a
+{
+    text-decoration: none;
+    color: white;
+}
+#Landing-page>.wrapper
+{
+    background-color: rgba(0,0,0,0.4);
+    height: inherit;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#Landing-page>.wrapper>center>h1
+{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:red;
+}
+#Landing-page>.wrapper>center>h1
+{
+    font-family: sans-serif;
+}
+
+div span
+{
+    color:orange;
+}
+h1
+{
+    color: rgb(209, 23, 79);
+}

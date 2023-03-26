@@ -1,0 +1,123 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AP Culture</title>
+    <link rel="stylesheet" href="{% static 'css/Culture.css' %}">
+    <style>
+        .First
+        {
+            background: url("{% static 'images/SP.jpg' %}") no-repeat 0px 0px scroll;
+            background-size: cover;
+            position: relative;
+            background-color: rgba(0,0,0,0.6);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ANDHRA PRADESH CULTURE</h1>
+        <div class="nav-links">
+            <button>
+                <a href="{% url 'Andhra:States' %}">Home</a>
+            </button>
+            <button>
+                <a href="{% url 'States:Disticts' %}">Disticts
+                </a>
+            </button>
+            <button>
+                <a href="{% url 'Andhra:History' %}">
+                    History
+                </a>
+            </button>
+            <button>
+                <a href="{% url 'Andhra:Culture' %}">
+                    Culture
+                </a>
+            </button>
+            <button>
+                <a href="{% url 'Andhra:Festivals' %}">Festivals</a>
+            </button>
+        </div>
+    </header>
+    <div class="First">
+        <center>
+        <div>
+            <br></br>
+            <h2>Religion and philosophy</h2>
+            <br></br>
+            <p>
+                Andhra Pradesh is home to Hindu saints of all castes. An important figure is Saint Yogi Potuluri Veerabrahmam, who was a Viswa Brahmin who even had Brahmin, Shudra Harijan and Muslim disciples.
+                Fisherman Raghu was also a Shudra.Several important Hindu modern-day saints are from Andhra Pradesh. 
+                These include Nimbarka who founded Dvaitadvaita, Mother Meera who advocated the Indian Independence and Aurobindo Mission, Sri Sathya Sai Baba and Swami Sundara Chaitanyanandaji.
+            </p>
+            <br></br>
+            <h2>Pilgrimage places</h2>
+            <br></br>
+            <p>1.Annavaram, where the main temple is dedicated to the Hindu god Satyanarayana.</p>
+            <p>2.Daksharamam, where the main temple is dedicated to the Hindu god Shiva.</p>
+            <p>3.Tirupati or Tirumala, where the main temple is dedicated to the Hindu god Venkateswara.</p>
+            <p>4.Simhachalam is said in mythology to be the abode of the saviour-god Narasimha, who rescued Prahlada from abusive father Hiranyakasipu.</p>
+            <p>5.Srisailam is dedicated mainly to Shiva. It is one of the locations of the various Jyotirlingams.</p>
+            <p>6.Srikalahasti is also dedicated to Shiva. It is one of the panchalingam.</p>
+            <p>7.Kanipakam is a famous temple dedicated to Ganesha.</p>
+            <p>8.Kanaka Durga Temple in Vijayawada is a temple dedicated to Goddess Durga</p>
+            <br></br>
+            <h2>Cultural institutions</h2>
+            <br></br>
+            <p>
+                Andhra Pradesh has many museums, including the Archaeological Museum at Amaravati Stupa near Guntur City that features relics of nearby ancient sites; 
+                the Visakha Museum in Visakhapatnam, which displays the history of the pre-Independence Madras Presidency in a rehabilitated Dutch bungalow; and Victoria Jubilee Museum in Vijayawada, which has a collection of ancient sculptures, paintings, idols, weapons, cutlery, and inscriptions.
+                Other elements that have long defined Telugu culture include Bapu's paintings, Nanduri Subbarao's Yenki Paatalu (Songs on/by a washerwoman called Yenki), the mischievous Budugu (a character by Mullapudi), 
+                Annamayya's songs, Aavakaaya (a variant of mango pickle in which the kernel of the mango is retained), Gongura (a chutney from the Roselle plant), Atla Taddi (a seasonal festival predominantly for teenage girls),
+                the banks of the river Godavari, and Dudu basavanna (the ceremonial ox decorated for door-to-door exhibition during the harvest festival Sankranti). The village of Durgi is known for originating stone craft,
+                carvings of idols in soft stone that must be exhibited in the shade because they are prone to weathering.
+            </p>
+            <br></br>
+            <h2>Architecture</h2>
+            <br></br>
+            <p>
+                There are two distinct architectural traditions in Andhra Pradesh. The first traces back to the building of the city of Amaravati under Satavahanas.
+                This unique style of architecture emphasises the use of intricate and abstract sculpture with inspiration from religious themes. The second tradition draws on the 
+                enormous granite and limestone reserves of the region and is reflected in the various temples and forts built over a very long period of time.
+            </p>
+            <br></br>
+            <h2>Literature</h2>
+            <br></br>
+            <p>
+                As an ancient language, Telugu has a rich and deep literary culture. Nannaya, Tikkana, Yerrapragada, Srinatha, Molla, and Tarikonda Venkamamba made the 
+                Telugu language alluring- a lingua franca for religion, musical composition and philosophy. The contributions of Charles Phillip Brown, Vemana, 
+                Sri Sri and Viswanatha Satyanarayana made Telugu a vibrant and evolving modern language. The contributions of various 
+                Telugu/Tamil/Sanskrit grammarians to the formalisation of English grammar gave Telugu literary traditions a truly global reach.
+            </p>
+            <br></br>
+            <h2>Dance</h2>
+            <br></br>
+            <p>
+                Jayapa Senani (Jayapa Nayudu) was the first known author to write about the dance forms prevalent in Andhra Pradesh.
+                Both Desi and Margi forms of dance have been included in his Sanskrit treatise Nritya Ratnavali, which contains eight chapters.
+                Folk dance forms like Perani, Prenkhana, Suddha Nartana, Carcari, Rasaka, Danda Rasaka, Shiva Priya, Kanduka Nartana, Bhandika Nrityam, Carana Nrityam, Chindu, Gondali and Kolatam are described. 
+                In the first chapter the author discusses the differences between Marga and Desi, Tandava and Lasya, Natya and Nritta. In the second and third chapters, he deals with Angi-Kabhinaya, Caris, Sthanakas and Mandalas. 
+                In the fourth chapter, Karnas, Angaharas and Recakas are described. In the following chapters, he describes local dance forms, e.g., Desi Nritya. In the last chapter, he deals with the art and practice of dance.
+            </p>
+            <br></br>
+            <h2>Music</h2>
+            <p>
+                The state has a rich musical heritage. Many legends of the Carnatic music, including two among the Trinity of Carnatic music (Thyagaraja and Syama Sastri), were of Telugu descent. 
+                Other composers include Annamacharya, Kshetrayya, and Bhadrachala Ramadasu. Folk songs are also popular in the rural areas of the state.
+            </p>
+        </div>
+        <br></br>
+        <h3>MORE information CLICK BELOW</h3>
+        <br>
+        <button class="Two">
+            <a href="https://en.wikipedia.org ">
+                CLICK HERE
+            </a>
+        </button>
+        <br></br>
+        </center>
+    </div>
+</body>
+</html>

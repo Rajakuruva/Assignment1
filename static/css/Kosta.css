@@ -1,0 +1,69 @@
+*
+{
+    margin: 0px;
+}
+body
+{
+
+    color: white;
+}
+header>h1
+{
+    box-shadow: 0px 0px 20px deeppink;
+}
+header
+{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header>.nav-links>button
+{
+    color: black; 
+    text-decoration: none;
+    padding: 6px 10px; 
+    background-color: orange;
+    margin: 20px;
+    border-radius: 10px;
+}
+header>.nav-links>button:hover
+{
+    box-shadow: 0 0 10px white;
+}
+header>.nav-links>button>a
+{
+    text-decoration: none;
+}
+#Landing-page h1
+{
+    text-align: center;
+    color: crimson;
+    background-color: aqua;
+    height: 60px;
+    width: 320px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-left: 550px;
+    box-shadow: 0px 0px 20px green;
+}
+#Landing-page h1:hover
+{
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    box-shadow: 0px 10px 20px rgb(197, 15, 24);
+    
+}
+#Landing-page h2
+{
+    background-color:brown;
+    width: 120px;
+    height: 30px;
+    padding: 20px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px rgb(31, 197, 25);
+    text-shadow: 0px 0px 10px pink;
+}
